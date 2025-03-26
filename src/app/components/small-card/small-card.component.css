@@ -1,0 +1,36 @@
+.container__small-card{
+  display: flex;
+  flex-direction: row;
+  margin-bottom: 30px;
+}
+
+.small-card__photo{
+  margin-right: 25px;
+  width: 300px;
+  height: 200px;
+}
+
+.small-card__photo > img{
+  width: 100%;
+  height: 100%;
+}
+
+.small-card__title{
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.small-card__title > h1{
+  margin-bottom: 10px;
+}
+
+.small-card__title > p {
+  color: grey;
+  width: 450px;
+  word-wrap: break-word;
+  overflow-wrap: break-word;
+  line-height: 1.2;
+}
