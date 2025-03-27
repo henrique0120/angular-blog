@@ -1,17 +1,45 @@
-<header>
-  <app-menu-bar></app-menu-bar>
-</header>
-<hr>
-<app-menu-title></app-menu-title>
+<app-menu-title
+  titleNews="Games Blog: News and News"
+  newsDesc="Stay up to date with the world of games."
+></app-menu-title>
 
 <h3>Recent blog posts</h3>
 <div class="container__articles">
   <div class="articles__main">
-    <app-big-card></app-big-card>
+    <app-big-card
+      Id="1"
+      photoCover="https://cloudfront-us-east-1.images.arcpublishing.com/infobae/K3BXUZZJ65CXRHTUVVUXDG7AFE.jpg"
+      cardTitle="Novo Patch do LOL!"
+      cardDescription="Riot Games lançou o patch 25.06 do League of Legends com mudanças interessantes no meta!"
+    ></app-big-card>
+
+    <app-big-card
+    Id="2"
+      photoCover="https://arena.rtp.pt/wp-content/uploads/2025/01/leblanc-league-of-legends-scaled-860x507-1.jpg"
+      cardTitle="Rework LeBlanc!"
+      cardDescription="Riot anunciou o rework de um dos campeões mais antigos e amados do LOL!"
+    ></app-big-card>
   </div>
   <div class="articles__others">
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
-    <app-small-card></app-small-card>
+    <app-small-card
+      Id="3"
+      smallPhotoCover="https://www.adrenaline.com.br/wp-content/uploads/2025/03/assassins-creed-shadows-chamda-red.jpg"
+      smallCardTitle="Assassins Creed Shadows lançado!"
+      smallCardDescription="Assassins Creed Shadows ultrapassa 2 milhões de jogadores, anuncia Ubisoft."
+    ></app-small-card>
+
+    <app-small-card
+      Id="4"
+      smallPhotoCover="https://www.adrenaline.com.br/wp-content/uploads/2025/03/GTA-6-Incertezas-Executivos-Industria-Games-912x569.jpg"
+      smallCardTitle="GTA VI é lançado!"
+      smallCardDescription="Em menos de 24 horas que o jogo foi lançado, bate o recorde de vendas em um dia de seu antecessor GTA V!"
+    ></app-small-card>
+
+    <app-small-card
+      Id="5"
+      smallPhotoCover="https://shared.fastly.steamstatic.com/store_item_assets/steam/apps/2622380/800a6d64a1685c303bf985f084fbf5c08ac2ae5c/capsule_616x353.jpg?t=1742521322"
+      smallCardTitle="Elden Ring NightReign"
+      smallCardDescription="Elden Ring NightReign é lançado, porém não atinge o sucesso esperado."
+    ></app-small-card>
   </div>
 </div>

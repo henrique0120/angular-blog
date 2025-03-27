@@ -1,0 +1,15 @@
+<a [routerLink]="['']"><< VOLTAR</a>
+<app-menu-title
+  titleNews="{{ contentTitle }}"
+  newsDesc="{{ contentDescription }}"
+></app-menu-title>
+<div class="container__content">
+  <div class="content__cover">
+    <img src="{{ contentImage }}" alt="" />
+  </div>
+  <div class="content__description">
+    <p>
+      {{ contentText }}
+    </p>
+  </div>
+</div>
