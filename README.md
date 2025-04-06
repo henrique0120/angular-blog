@@ -1,59 +1,89 @@
-# AngularBlog
+<h1 align="center" style="font-weight: bold;">Project name 💻</h1>
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.4.
+<p align="center">
+ <a href="#tech">Technologies</a> • 
+ <a href="#started">Getting Started</a> • 
+</p>
 
-## Development server
+<p align="center">
+    <b>Simple description of what your project do or how to use it</b>
+</p>
 
-To start a local development server, run:
+<p align="center">
+     <a href="PROJECT__URL">📱 Visit this Project</a>
+</p>
 
-```bash
-ng serve
-```
+<h2 id="layout">🎨 Layout</h2>
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+<p align="center">
+    <img src="../.github/example.png" alt="Image Example" width="400px">
+    <img src="../.github/example.png" alt="Image Example" width="400px">
+</p>
 
-## Code scaffolding
+<h2 id="technologies">💻 Technologies</h2>
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+- list of all technologies you used
+- react
+- styled components
+- another example
 
-```bash
-ng generate component component-name
-```
+<h2 id="started">🚀 Getting started</h2>
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+Here you describe how to run your project locally
 
-```bash
-ng generate --help
-```
+<h3>Prerequisites</h3>
 
-## Building
+Here you list all prerequisites necessary for running your project. For example:
 
-To build the project run:
+- [NodeJS](https://github.com/)
+- [Git 2](https://github.com)
 
-```bash
-ng build
-```
+<h3>Cloning</h3>
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
+How to clone your project
 
 ```bash
-ng e2e
+git clone your-project-url-in-github
 ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+<h3>Starting</h3>
 
-## Additional Resources
+How to start your project
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+```bash
+cd project-name
+npm some-command-to-run
+```
+
+<h2 id="colab">🤝 Collaborators</h2>
+
+Special thank you for all people that contributed for this project.
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="#">
+        <img src="https://avatars.githubusercontent.com/u/61896274?v=4" width="100px;" alt="Fernanda Kipper Profile Picture"/><br>
+        <sub>
+          <b>Fernanda Kipper</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#">
+        <img src="https://t.ctcdn.com.br/n7eZ74KAcU3iYwnQ89-ul9txVxc=/400x400/smart/filters:format(webp)/i490769.jpeg" width="100px;" alt="Elon Musk Picture"/><br>
+        <sub>
+          <b>Elon Musk</b>
+        </sub>
+      </a>
+    </td>
+    <td align="center">
+      <a href="#">
+        <img src="https://miro.medium.com/max/360/0*1SkS3mSorArvY9kS.jpg" width="100px;" alt="Foto do Steve Jobs"/><br>
+        <sub>
+          <b>Steve Jobs</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
