@@ -1,89 +1,43 @@
-<h1 align="center" style="font-weight: bold;">Project name 💻</h1>
+<h1 align="center" style="font-weight: bold;">Angular blog 💻</h1>
 
 <p align="center">
- <a href="#tech">Technologies</a> • 
+ <a href="#technologies">Technologies</a> • 
  <a href="#started">Getting Started</a> • 
 </p>
 
 <p align="center">
-    <b>Simple description of what your project do or how to use it</b>
-</p>
-
-<p align="center">
-     <a href="PROJECT__URL">📱 Visit this Project</a>
+    <b>Projeto de blog sobre games com base em templates do Dribbble.</b>
 </p>
 
 <h2 id="layout">🎨 Layout</h2>
 
 <p align="center">
-    <img src="../.github/example.png" alt="Image Example" width="400px">
-    <img src="../.github/example.png" alt="Image Example" width="400px">
+    <img src="assets/screenshot1.png" alt="Image Example" width="400px">
+    <img src="assets/screenshot2.png" alt="Image Example" width="400px">
 </p>
 
 <h2 id="technologies">💻 Technologies</h2>
 
-- list of all technologies you used
-- react
-- styled components
-- another example
+- Angular
+- Typescript
+- HTML
+- CSS
 
 <h2 id="started">🚀 Getting started</h2>
 
-Here you describe how to run your project locally
-
 <h3>Prerequisites</h3>
 
-Here you list all prerequisites necessary for running your project. For example:
-
-- [NodeJS](https://github.com/)
-- [Git 2](https://github.com)
+- [NodeJS](https://nodejs.org/en/download)
 
 <h3>Cloning</h3>
 
-How to clone your project
+```bash
+git clone https://github.com/henrique0120/angular-blog
+```
+<h3>Starting</h3> 
 
 ```bash
-git clone your-project-url-in-github
+npm install
+cd angular-blog
+ng s -o
 ```
-
-<h3>Starting</h3>
-
-How to start your project
-
-```bash
-cd project-name
-npm some-command-to-run
-```
-
-<h2 id="colab">🤝 Collaborators</h2>
-
-Special thank you for all people that contributed for this project.
-
-<table>
-  <tr>
-    <td align="center">
-      <a href="#">
-        <img src="https://avatars.githubusercontent.com/u/61896274?v=4" width="100px;" alt="Fernanda Kipper Profile Picture"/><br>
-        <sub>
-          <b>Fernanda Kipper</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="#">
-        <img src="https://t.ctcdn.com.br/n7eZ74KAcU3iYwnQ89-ul9txVxc=/400x400/smart/filters:format(webp)/i490769.jpeg" width="100px;" alt="Elon Musk Picture"/><br>
-        <sub>
-          <b>Elon Musk</b>
-        </sub>
-      </a>
-    </td>
-    <td align="center">
-      <a href="#">
-        <img src="https://miro.medium.com/max/360/0*1SkS3mSorArvY9kS.jpg" width="100px;" alt="Foto do Steve Jobs"/><br>
-        <sub>
-          <b>Steve Jobs</b>
-        </sub>
-      </a>
-    </td>
-  </tr>
-</table>
