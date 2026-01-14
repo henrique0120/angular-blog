@@ -5,17 +5,24 @@ import { ContentComponent } from './pages/content/content.component';
 
 const routes: Routes = [
   {
-    path:'',
-    component:HomeComponent
+    path: '',
+    component: HomeComponent,
+    data: { renderMode: 'client' }
   },
   {
-    path:'content/:id',
-    component:ContentComponent
+    path: 'content/:id',
+    component: ContentComponent,
+    data: { renderMode: 'client' }
   }
 ];
 
 @NgModule({
-  imports: [RouterModule.forRoot(routes)],
+  imports: [
+    RouterModule.forRoot(routes, {
+      useHash: true
+    })
+  ],
   exports: [RouterModule]
 })
-export class AppRoutingModule { }
+export class AppRoutingModule {}
+
